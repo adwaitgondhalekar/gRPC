@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+//name of the service created
+service Multiplier
+{
+    //name of the remote procedure
+    rpc multiply(clientinput) returns (multipliedoutput) {}     
+}
+
+//name of the input request to the remote procedure
+message clientinput
+{
+    //different parameters of the request
+    int64 num1=1;
+    int64 num2=2;
+}
+
+//name of the response from the remote procedure
+message multipliedoutput
+{
+    //different response parameters
+    int64 product=1;
+}
