@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0emultiply.proto\")\n\x0b\x63lientinput\x12\x0c\n\x04num1\x18\x01 \x01(\x03\x12\x0c\n\x04num2\x18\x02 \x01(\x03\"#\n\x10multipliedoutput\x12\x0f\n\x07product\x18\x01 \x01(\x03\x32;\n\nMultiplier\x12-\n\x08multiply\x12\x0c.clientinput\x1a\x11.multipliedoutput\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0emultiply.proto\")\n\x0b\x63lientinput\x12\x0c\n\x04num1\x18\x01 \x01(\x03\x12\x0c\n\x04num2\x18\x02 \x01(\x03\"4\n\x10multipliedoutput\x12\x0f\n\x07product\x18\x01 \x01(\x03\x12\x0f\n\x07message\x18\x02 \x01(\t2;\n\nMultiplier\x12-\n\x08multiply\x12\x0c.clientinput\x1a\x11.multipliedoutput\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['_CLIENTINPUT']._serialized_start=18
   _globals['_CLIENTINPUT']._serialized_end=59
   _globals['_MULTIPLIEDOUTPUT']._serialized_start=61
-  _globals['_MULTIPLIEDOUTPUT']._serialized_end=96
-  _globals['_MULTIPLIER']._serialized_start=98
-  _globals['_MULTIPLIER']._serialized_end=157
+  _globals['_MULTIPLIEDOUTPUT']._serialized_end=113
+  _globals['_MULTIPLIER']._serialized_start=115
+  _globals['_MULTIPLIER']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

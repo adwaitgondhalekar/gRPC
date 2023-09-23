@@ -12,5 +12,5 @@ def run():
       # calling to remote procedure through the stub created and receiving a response
       response = stub.multiply(multiply_pb2.clientinput(num1=6, num2=8))
       
-   print("Multiplier client received following from server:{}".format(response.product))
+   print("Multiplier client received following from server:{} and  string {}".format(response.product,response.message))
 run()

@@ -20,4 +20,5 @@ message multipliedoutput
 {
     //different response parameters
     int64 product=1;
+    string message=2;
 }

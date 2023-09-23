@@ -6,7 +6,8 @@ import multiply_pb2 as multiply__pb2
 
 
 class MultiplierStub(object):
-    """Missing associated documentation comment in .proto file."""
+    """name of the service created
+    """
 
     def __init__(self, channel):
         """Constructor.
@@ -22,10 +23,12 @@ class MultiplierStub(object):
 
 
 class MultiplierServicer(object):
-    """Missing associated documentation comment in .proto file."""
+    """name of the service created
+    """
 
     def multiply(self, request, context):
-        """Missing associated documentation comment in .proto file."""
+        """name of the remote procedure
+        """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
@@ -46,7 +49,8 @@ def add_MultiplierServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class Multiplier(object):
-    """Missing associated documentation comment in .proto file."""
+    """name of the service created
+    """
 
     @staticmethod
     def multiply(request,
